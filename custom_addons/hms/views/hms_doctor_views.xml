@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <record id="doctor_action" model="ir.actions.act_window">
+            <field name="name">Doctor</field>
+            <field name="res_model">hms.doctor</field>
+            <field name="view_mode">tree,form</field>
+
+        </record>
+
+
+        <menuitem id="doctor_menue" name="Doctors" parent="hms_patient" action="doctor_action"/>
+
+
+
+    </data>
+
+</odoo>
